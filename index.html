@@ -21,23 +21,6 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/style.css" />
-    <script
-      type="text/javascript"
-      src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"
-    ></script>
-    <script type="text/javascript">
-      (function ($) {
-        window.fnames = new Array();
-        window.ftypes = new Array();
-        fnames[1] = "NAME";
-        ftypes[1] = "text";
-        fnames[0] = "EMAIL";
-        ftypes[0] = "email";
-        fnames[2] = "MESSAGE";
-        ftypes[2] = "text";
-      })(jQuery);
-      var $mcj = jQuery.noConflict(true);
-    </script>
   </head>
   <body>
     <div class="header">
@@ -191,83 +174,93 @@
     </div>
     <div class="container-fluid contact">
       <h2>Contact Us</h2>
-
-      <div id="mc_embed_signup">
-        <form
-          action="https://moringaschool.us1.list-manage.com/subscribe/post?u=18d5bf55f725ac3628d8e129b&amp;id=07197f3fb7"
-          method="post"
-          id="mc-embedded-subscribe-form"
-          name="mc-embedded-subscribe-form"
-          class="validate"
-          target="_blank"
-          novalidate
-        >
-          <div id="mc_embed_signup_scroll">
-            <div class="field-group">
-              <input
-                type="text"
-                placeholder="Name..."
-                value=""
-                name="NAME"
-                class="form-control"
-                id="NAME"
-                size="25"
-              />
-              <input
-                type="email"
-                value=""
-                placeholder="Email..."
-                name="EMAIL"
-                class="form-control"
-                id="EMAIL"
-                autocapitalize="off"
-                size="25"
-              />
-            </div>
-            <div class="field-group">
-              <input
-                type="text"
-                value=""
-                placeholder="Enter Your Message Here..."
-                name="MESSAGE"
-                class="form-control"
-                id="MESSAGE"
-              />
-            </div>
-            <div id="mce-responses" class="clear">
-              <div
-                class="response"
-                id="mce-error-response"
-                style="display: none"
-              ></div>
-              <div
-                class="response"
-                id="mce-success-response"
-                style="display: none"
-              ></div>
-            </div>
-            <div class="clear">
-              <button type="submit" class="btn btn-primary col-md-1">
-                Submit
-              </button>
-            </div>
+      <form
+        action="https://moringaschool.us1.list-manage.com/subscribe/post?u=18d5bf55f725ac3628d8e129b&amp;id=07197f3fb7"
+        method="post"
+        id="mc-embedded-subscribe-form"
+        name="mc-embedded-subscribe-form"
+        class="validate"
+        target="_blank"
+        novalidate>
+          <div class="form-group form-inline">
+            <input
+              type="text"
+              placeholder="Name..."
+              value=""
+              name="NAME"
+              class="form-control"
+              id="NAME"
+            />
+            <input
+              type="email"
+              value=""
+              placeholder="Email..."
+              name="EMAIL"
+              class="form-control"
+              id="EMAIL"
+              autocapitalize="off"
+            />
           </div>
-        </form>
-      </div>
+          <div class="form-group">
+            <input
+              type="text"
+              value=""
+              placeholder="Enter Your Message Here..."
+              name="MESSAGE"
+              class="form-control"
+              id="MESSAGE"/>
+          </div>
+          <div id="mce-responses" class="clear">
+            <div
+              class="response"
+              id="mce-error-response"
+              style="display: none"
+            ></div>
+            <div
+              class="response"
+              id="mce-success-response"
+              style="display: none"
+            ></div>
+          </div>
+          <div class="clear">
+            <button type="submit" class="btn btn-primary col-md-1">
+              Submit
+            </button>
+          </div>
+      </form>
     </div>
   </body>
   <footer>
-    <img src="./images/social_icons/twitter.png" alt="Twitter">
-    <img src="./images/social_icons/dribble.png" alt="Dribble">
-    <img src="./images/social_icons/facebook.png" alt="Facebook">
-    <img src="./images/social_icons/g_plus.png" alt="G_Plus">
-    <img src="./images/social_icons/skype.png" alt="Skype">
-    <img src="./images/social_icons/stumble_upon.png" alt="Stumble_Upon">
-    <img src="./images/social_icons/behance.png" alt="Behance">
-    <img src="./images/social_icons/pinterest.png" alt="Pinterest">
-    <img src="./images/social_icons/flickr.png" alt="Flickr">
-    <img src="images/social_icons/you_tube.png" alt="Youtube">
-    <p>Delani Studio
+    <script
+    type="text/javascript"
+    src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"
+  ></script>
+  <script type="text/javascript">
+    (function ($) {
+      window.fnames = new Array();
+      window.ftypes = new Array();
+      fnames[1] = "NAME";
+      ftypes[1] = "text";
+      fnames[0] = "EMAIL";
+      ftypes[0] = "email";
+      fnames[2] = "MESSAGE";
+      ftypes[2] = "text";
+    })(jQuery);
+    var $mcj = jQuery.noConflict(true);
+  </script>
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+  <script src="./js/script.js"></script>
+    <img src="./images/social_icons/twitter.png" alt="Twitter" />
+    <img src="./images/social_icons/dribble.png" alt="Dribble" />
+    <img src="./images/social_icons/facebook.png" alt="Facebook" />
+    <img src="./images/social_icons/g_plus.png" alt="G_Plus" />
+    <img src="./images/social_icons/skype.png" alt="Skype" />
+    <img src="./images/social_icons/stumble_upon.png" alt="Stumble_Upon" />
+    <img src="./images/social_icons/behance.png" alt="Behance" />
+    <img src="./images/social_icons/pinterest.png" alt="Pinterest" />
+    <img src="./images/social_icons/flickr.png" alt="Flickr" />
+    <img src="images/social_icons/you_tube.png" alt="Youtube" />
+    <p>Delani Studio</p>
     <p>2021</p>
   </footer>
 </html>
