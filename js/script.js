@@ -1,21 +1,40 @@
-$("#design").click(function () {
-    $("#deisgn-image").slideToggle(1000);
-    $("#design-text").slideToggle(1200);
+$(document).ready(function(){
+    $("#design-image").click(function(){
+      $("#design-image").slideDown('1500').hide('1000');
+      $("#design").show('1500');
+    });
+    $("#design").click(function(){
+      $("#design").slideUp('1500');
+      $("#design-image").slideDown('1500');
+    });
   });
-  $(".click2").click(function () {
-    $(".hide2").slideToggle(1000);
-    $(".show2").slideToggle(1200);
+  $(document).ready(function(){
+    $("#dev-image").click(function(){
+      $("#dev-image").slideDown('1500').hide('1000');
+      $("#development").show('1500');
+    });
+    $("#development").click(function(){
+      $("#development").slideUp('1500');
+      $("#dev-image").slideDown('1500');
+    });
   });
-  $(".click3").click(function () {
-    $(".hide3").slideToggle(1000);
-    $(".show3").slideToggle(1200);
+  $(document).ready(function(){
+    $("#prod-image").click(function(){
+      $("#prod-image").slideDown('1500').hide('1000');
+      $("#product").show('1500');
+    });
+    $("#product").click(function(){
+      $("#product").slideUp('1500');
+      $("#prod-image").slideDown('1500');
+    });
   });
+  
   
   $(document).ready(function(){
     $("#work1").mouseover(function(){
       $("#overlay1").show();
     }).mouseout(function(){
-      $("#overlay").hide();
+      $("#overlay1").hide();
     });
     $("#work2").mouseover(function(){
       $("#overlay2").show();
