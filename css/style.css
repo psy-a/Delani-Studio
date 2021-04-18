@@ -138,3 +138,45 @@ html {
   padding-top: 50%;
   font-family: "Quicksand", serif;
 }
+.contact{
+    background-image: url('../images/backgrounds/c_image.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+  }
+  .contact h2{
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-family: 'Quicksand', serif;
+  }
+
+  input[type=text],input[type=email], #MESSAGE{
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    font-family: 'Quicksand', serif;
+  }
+  
+  .form-control::-webkit-input-placeholder { 
+    color: white; 
+  }
+  #NAME{
+    width: 30%;
+    margin-left: 18%;
+    margin-right: 30px;
+  }
+  #EMAIL{
+    width: 30%;
+  }
+  #MESSAGE{
+    margin-left: 20%;
+    width: 60%;
+  }
+  button{
+    margin-left: 20%;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+  }
