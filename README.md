@@ -1,8 +1,8 @@
-# Aspin's Akan Names Project.
-#### This is my Akan Names project website done on my week 6 as an Independent Project at Moringa School, 11th April 2021.
+# Aspin's Delani Studio Project.
+#### This is my Delani Studio project website done on my week 7 as an Independent Project at Moringa School, 19th April 2021.
 #### By **Aspin Isoe**
 ## Description
-This is a website that determines your day of birth based on your date of birth and then assigns an Akan Name based on the Ghanian Culture.
+This is a landing website for Delani Studio outlining their services, sample projects and means of how to contact them.
 ## Pre-requisites
 You need to have git installed.
 If not, you can install git with the following command in your terminal; '$ sudo apt-get install git-all`.
@@ -21,7 +21,7 @@ There are no known bugs at this moment.
 4. Javascript
 5. GIT
 ### Live Site
-View [live](https://psy-a.github.io/Akan_Names/)
+View [live](https://psy-a.github.io/Delani-Studio/)
 ## Support and contact details
 For any questions, suggestions, contribution or assistance, reach me on aspin.isoe@student.moringaschool.com
 ### License
